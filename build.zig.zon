@@ -1,0 +1,15 @@
+.{
+    .name = .qrcode,
+
+    .version = "1.0.0",
+    .fingerprint = 0xa4ff23ec6901aef3,
+    .minimum_zig_version = "0.14.1",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
