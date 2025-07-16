@@ -10,7 +10,7 @@ zig fetch --save git+https://github.com/darltrash/QRCode.zig
 in your build.zig file:
 ```zig
 const qrcode_pkg = b.dependency("qrcode", .{});
-exe.root_module.addImport("qrcode", zigmon_pkg.module("qrcode"));
+exe.root_module.addImport("qrcode", qrcode_pkg.module("qrcode"));
 ```
 
 ### Example:
